@@ -7,6 +7,8 @@ Hello, below in the README file is the current state of the application based on
 
 The appearance of the website consists of a simple layout which is divided into three sections. The first is the Test Broker, which contains a button that connects to the port on which the Broker service is served and the response it gives us. The next two sections run automatically when the button is pressed. The first is what was sent to the service in question, and the next is what data was captured ( raw )
 
+![App Screenshot](https://github.com/kleczynski/GoMicroservices/blob/master/images/layout.png)
+
 ### Broker Service 
 
 In this service we have routers that are responsible for communication via the REST API with other services, at the moment the service broker's communication with the front-end is tested. The service broker will distribute the communication with the front-end to the individual services that are planned. 
